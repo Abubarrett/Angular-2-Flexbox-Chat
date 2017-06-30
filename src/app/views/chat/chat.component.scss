@@ -1,0 +1,119 @@
+
+//wrapper
+.wrapper{
+	.wrapperInner{
+
+	}
+}
+
+//head
+.head{
+	//fixes
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 1;
+	
+	//pew pew
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	
+	.headInner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem;
+
+		.title{
+			font-family: Roboto;
+			font-size: 1.5rem;
+			font-weight: 300;
+			color: rgba(0, 0, 0, 0.5);
+		}
+		.icono{
+			font-size: 1.8rem;
+			color: rgba(0, 0, 0, 0.5);
+		}
+	}	
+}
+
+
+//body
+
+.body{
+	margin: 67px 0 53px 0;
+}
+
+.footer{
+	//fixes
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+
+	//
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+	.footerInner{
+		position: relative;
+		padding: 0.5rem;
+		display: flex;
+
+		.textInput{
+			border: 1px solid rgba(0, 0, 0, 0.3);
+			border-radius: 20px;
+
+			padding: 0.5rem 2.5rem 0.5rem 1rem;
+			flex: 1;
+
+			font-family: Roboto;
+			font-size: 1rem;
+			font-weight: 300;
+			color: rgba(0, 0, 0, 0.5);
+
+		}
+		.send{
+			position: absolute;
+
+			display: flex;
+			align-items: center;
+
+			top: 50%;
+			right: 1.5rem;
+
+			transform: translate(0%, -50%);
+
+			//
+			font-size: 2rem;
+			color: rgba(0, 0, 0, 0.8);
+		}
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

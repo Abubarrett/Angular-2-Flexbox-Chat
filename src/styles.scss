@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+textarea{    
+    width: 100%;
+    max-width: none;
+    outline: none;
+
+    resize: none;
+    &:focus{
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    }
+}
