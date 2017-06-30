@@ -8,6 +8,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Screens
 
-![Chats](https://preview.ibb.co/n3xF55/localhost_4200_i_Phone_6.png)
 
-![Chat](https://preview.ibb.co/gVOYsk/localhost_4200_chat_i_Phone_6.png)
+| Chat List  | Single Chat |
+| ------------- | ------------- |
+| ![Chats](https://preview.ibb.co/n3xF55/localhost_4200_i_Phone_6.png)  | ![Chat](https://preview.ibb.co/gVOYsk/localhost_4200_chat_i_Phone_6.png)  |
+
+
+
+
